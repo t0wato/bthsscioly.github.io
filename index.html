@@ -28,22 +28,23 @@
             border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
-            display: flex;
-            flex-direction: column;
-            align-items: center; 
         }
         button:hover {
             background-color: #0056b3;
         }
-<div style="display: flex; justify-content: center;">
-  <button>Click Me</button>
-</div>
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
     <h1>bths scioly page</h1>
-    <p>Welcome to One of the Top Science Olympiad Teams in NY State!<p>
-        <p>This is a first draft, not affiliated with the school's team (yet).</p>
-    <button onclick="alert('Hello! You clicked the button!')">Click Me!</button>
-    
+    <p>Welcome to One of the Top Science Olympiad Teams in NY State!</p>
+    <p>This is a first draft, not affiliated with the school's team (yet).</p>
+    <div class="button-container">
+        <button onclick="alert('Hello! You clicked the button!')">Click Me!</button>
+    </div>
+</body>
 </html>
