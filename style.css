@@ -24,6 +24,40 @@ h1{
 .navbar li{
   float: left;
 }
+body {
+            font-family: Courier New, Courier, monospace;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #107AB0;
+            overflow-x: hidden;
+            position: relative;
+        }
+        h1 {
+            color: #FFF;
+            text-align: center;
+            position: relative;
+            z-index: 10;
+        a {
+            color: #FFF;
+            text-align: center;
+            position: relative;
+            z-index: 10;
+        }
+        }
+        h2 {
+            color: #FFF;
+            href-align: center;
+            position: relative;
+            z-index: 10;
+        }
+        p {
+            color: #CCC;
+            line-height: 1.6;
+            text-align: center;
+            position: relative;
+            z-index: 10;
+        }
   
   
   
