@@ -4,6 +4,13 @@ body{
 h1{
   text-align: center;
 }
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+}
 .navbar ul{
   list-style-type: none;
   background-color: blue;
