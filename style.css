@@ -78,15 +78,18 @@ body {
     background-attachment: fixed;    
 }
 
-.insta-wrapper {
-  position: relative;
+.insta-outside {
+  position: fixed;  
+  right: 20px;       
+  top: 200px;        
+  z-index: 9999;     
 }
 
-.insta-wrapper iframe,
-.insta-wrapper blockquote {
-  position: absolute;
-  right: 0;
+.insta-outside iframe,
+.insta-outside blockquote {
+  max-width: none !important;  
 }
+
 
 
 
