@@ -79,8 +79,9 @@ body {
 }
 
 .insta-right {
-  display: flex;
-  justify-content: flex-end;
+  float: right;
+  margin-left: 20px;
 }
+
 
   
