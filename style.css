@@ -79,16 +79,19 @@ body {
 }
 
 .insta-outside {
-  position: fixed;  
-  right: 20px;       
-  top: 200px;        
-  z-index: 9999;     
+  position: fixed;
+  right: 20px;
+  top: 200px;
+  width: 400px;  
+  z-index: 9999;
 }
 
 .insta-outside iframe,
 .insta-outside blockquote {
-  max-width: none !important;  
+  width: 100% !important;  
+  max-width: 100% !important;
 }
+
 
 
 
