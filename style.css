@@ -42,19 +42,19 @@ body {
         }
         h1 {
             color: #FFF;
-            text-align: center;
+            text-align: left;
             position: relative;
             z-index: 10;
         a {
             color: #FFF;
-            text-align: center;
+            text-align: left;
             position: relative;
             z-index: 10;
         }
         }
         h2 {
             color: #FFF;
-            href-align: center;
+            href-align: left;
             position: relative;
             z-index: 10;
           text-align: center;
@@ -62,7 +62,7 @@ body {
         p {
             color: #CCC;
             line-height: 1.6;
-            text-align: center;
+            text-align: left;
             position: relative;
             z-index: 10;
         }
