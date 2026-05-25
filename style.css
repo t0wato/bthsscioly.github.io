@@ -78,10 +78,16 @@ body {
     background-attachment: fixed;    
 }
 
-.insta-right {
-  float: right;
-  margin-left: 20px;
+.insta-wrapper {
+  position: relative;
 }
+
+.insta-wrapper iframe,
+.insta-wrapper blockquote {
+  position: absolute;
+  right: 0;
+}
+
 
 
   
