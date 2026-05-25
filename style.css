@@ -44,10 +44,12 @@ body {
             color: #FFF;
             position: relative;
             z-index: 10;
+            left: 10px;
         a {
             color: #FFF;
             position: relative;
             z-index: 10;
+            left: 10px;
         }
         }
         h2 {
@@ -55,12 +57,14 @@ body {
             href-align: left;
             position: relative;
             z-index: 10;
+            left: 10px;
         }
         p {
             color: #CCC;
             line-height: 1.6;
             position: relative;
             z-index: 10;
+            left: 10px;
         }
 body {
     background-image: url('New board (2).png');
