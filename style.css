@@ -114,35 +114,5 @@ body {
     line-height: 2.5;              
   }
 
-.page-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* left + right */
-  grid-template-rows: auto 1fr;   /* top banner + content */
-  gap: 20px;
-  width: 100%;
-}
-
-/* Board 8 spans full width */
-.top-banner {
-  grid-column: 1 / 3;
-  text-align: center;
-}
-
-/* Left column */
-.left-column {
-  grid-column: 1;
-}
-
-/* Right column */
-.right-column {
-  grid-column: 2;
-}
-
-/* Board 2 image spacing */
-.board2-img {
-  float: left;
-  margin-right: 15px;
-  margin-bottom: 20px;
-}
 
   
