@@ -31,51 +31,55 @@ h1{
 .navbar li{
   float: left;
 }
-body {
-           font-family: Verdana, Geneva, sans-serif;
-            margin: 50px;
-            padding: 0px;
-            background-color: #107AB0;
-            overflow-x: hidden;
-            position: relative;
-        }
-        h1 {
-            color: #FFF;
-            position: relative;
-            z-index: 10;
-            left: 10px;
-            top: 50px;
-        }
 
-        a {
-            color: #FFF;
-            position: relative;
-            z-index: 10;
-            left: 10px;
-            top: 50px;
-        }
-        h2 {
-            color: #FFF;
-            
-            position: relative;
-            z-index: 10;
-            left: 10px;
-            top: 50px;
-        }
-        p {
-            color: #CCC;
-            line-height: 2.5;
-            position: relative;
-            z-index: 10;
-            left: 10px;
-            top: 50px;
-        }
 body {
-    background-image: url('New board (3).png');
-    background-size: cover;         
-    background-position: center;   
-    background-repeat: no-repeat;    
-    background-attachment: fixed;    
+  font-family: Verdana, Geneva, sans-serif;
+  margin: 50px;
+  padding: 0px;
+  background-color: #107AB0;
+  overflow-x: hidden;
+  position: relative;
+}
+
+h1 {
+  color: #FFF;
+  position: relative;
+  z-index: 10;
+  left: 10px;
+  top: 50px;
+}
+
+a {
+  color: #FFF;
+  position: relative;
+  z-index: 10;
+  left: 10px;
+  top: 50px;
+}
+
+h2 {
+  color: #FFF;
+  position: relative;
+  z-index: 10;
+  left: 10px;
+  top: 50px;
+}
+
+p {
+  color: #CCC;
+  line-height: 2.5;
+  position: relative;
+  z-index: 10;
+  left: 10px;
+  top: 50px;
+}
+
+body {
+  background-image: url('New board (3).png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 @media (min-width: 900px) {
@@ -83,37 +87,37 @@ body {
     position: absolute;
     right: 50px;
     top: 500px;
-    width: 550px;        
+    width: 550px;
     max-width: 550px;
     z-index: 9999;
   }
 }
+
 @media (max-width: 899px) {
   .insta-outside {
-    position: relative;  
+    position: relative;
     width: 100%;
     max-width: 100%;
-    margin: 20px auto;   
+    margin: 20px auto;
     padding: 0;
   }
 }
-
 
 .insta-outside iframe,
 .insta-outside blockquote {
   width: 100% !important;
   max-width: 100% !important;
-  min-width: 0 !important;   
+  min-width: 0 !important;
 }
- @media (max-width: 900px) {
+
+@media (max-width: 900px) {
   .squished-block {
-    width: 400px;                  
+    width: 400px;
     padding: 15px;
     border: 0px;
-    text-align: justify;           
-    word-wrap: break-word;         
-    line-height: 2.5;              
+    text-align: justify;
+    word-wrap: break-word;
+    line-height: 2.5;
   }
- }
-
+}
   
